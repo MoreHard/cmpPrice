@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <h1>{{ msg }}</h1>
+    <h1>검색어를 입력해주세요.</h1>
     <form>
         <input type="text">
         <button>검색</button>
