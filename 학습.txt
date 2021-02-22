@@ -1,0 +1,9 @@
+npm run build 후 인텔리제이에서 프로젝트 실행
+
+npm bulid로 vue를 런
+인텔리제이로 
+
+app.vue
+intro.vue
+
+vuex에 대한 고려.
