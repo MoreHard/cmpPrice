@@ -1,14 +1,19 @@
 <template>
   <div id="app">
-    <router-view msg='검색어를 입력하세요'></router-view>
+    <Header />   
+    <div id = "content" class="content"> 
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
+import Header from "./components/layout/Header.vue";
 
 export default {
   name: 'App',
   components: {
+    Header,
    
   }
 }
@@ -16,11 +21,11 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 60px; */
 }
 </style>
